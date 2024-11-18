@@ -36,16 +36,16 @@
 /************************************/
 
 :root {
-	--primary-color			: #2F3D7E;
-	--secondary-color		: #F6F8FF;
+	--primary-color			: #2d2d2d;
+	--secondary-color		: #ffffff;
 	--text-color			: #646262;
 	--white-color			: #ffffff;
 	--dark-color			: #333333;
-	--accent-color			: #ED7D3A;
-	--divider-color			: #DDE4FF;
+	--accent-color			: #00c7cb;
+	--divider-color			: #ffffff;
 	--gray-divider			: #DDDBDB;
-	--overlay-color			: #2F3D7E80;
-	--dark-overlay-color	: #2F3D7Eaa;
+	--overlay-color			: #2d2d2d;
+	--dark-overlay-color	: #2d2d2d;
 	--error-color			: rgb(230, 87, 87);
 	--accent-font			: 'Sora', sans-serif;
 	--default-font			: 'Inter', sans-serif;
@@ -104,7 +104,7 @@ a:focus{
 	outline: 0;
 }
 
-::-webkit-scrollbar-track {background-color: #f1f1f1;border-left: 1px solid #ededed;}
+::-webkit-scrollbar-track {background-color: #f1f1f1;border-left: 1px solid #f8fbfd;}
 ::-webkit-scrollbar {width: 7px;background-color: var(--accent-color);}
 ::-webkit-scrollbar-thumb {background: var(--accent-color);}
 
@@ -407,7 +407,7 @@ header.main-header .header-sticky.hide{
 	transition: transform 0.3s ease-in-out;
 	padding: 15px 0;
 	border-radius: 0;
-	border-bottom: 1px solid #16330010;
+	border-bottom: 1px solid #00c7cb;
 }
 
 header.main-header .header-sticky.active{
@@ -416,7 +416,7 @@ header.main-header .header-sticky.active{
 	left: 0;
 	right: 0;
 	border-radius: 0;
-	border-bottom: 1px solid #16330010;
+	border-bottom: 1px solid #737373;
     transform: translateY(0);
 	background: var(--white-color);
 }
